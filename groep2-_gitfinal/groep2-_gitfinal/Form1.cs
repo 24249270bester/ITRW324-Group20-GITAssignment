@@ -24,5 +24,11 @@ namespace groep2__gitfinal
             AF.ShowDialog();
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmMedian frm = new frmMedian();
+            frm.Show();
+        }
     }
 }
