@@ -17,11 +17,18 @@ namespace groep2__gitfinal
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            RuanForm RF = new RuanForm();
-            RF.Show();
+            MessageBox.Show("Andries Bester 24249270");
+            AndriesForm AF = new AndriesForm();
+            AF.ShowDialog();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmMedian frm = new frmMedian();
+            frm.Show();
         }
     }
 }
