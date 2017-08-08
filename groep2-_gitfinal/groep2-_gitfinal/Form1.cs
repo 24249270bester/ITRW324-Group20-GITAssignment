@@ -37,5 +37,11 @@ namespace groep2__gitfinal
             RuanForm RF = new RuanForm();
             RF.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frmJaco fJaco = new frmJaco();
+            fJaco.Show();
+        }
     }
 }
