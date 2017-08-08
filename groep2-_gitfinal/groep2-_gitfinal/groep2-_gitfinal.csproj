@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddMax.cs" />
     <Compile Include="AndriesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +69,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RuanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RuanForm.Designer.cs">
+      <DependentUpon>RuanForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AndriesForm.resx">
       <DependentUpon>AndriesForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -86,6 +93,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RuanForm.resx">
+      <DependentUpon>RuanForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
