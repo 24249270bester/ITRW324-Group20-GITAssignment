@@ -16,5 +16,13 @@ namespace groep2__gitfinal
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Andries Bester 24249270");
+            AndriesForm AF = new AndriesForm();
+            AF.ShowDialog();
+
+        }
     }
 }
